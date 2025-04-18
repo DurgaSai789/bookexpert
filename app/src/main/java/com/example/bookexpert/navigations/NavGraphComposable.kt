@@ -14,7 +14,7 @@ import com.example.bookexpert.composable.PdfViewerFComposable
 @Composable
 fun NavGraphComposable(navHostController : NavHostController) {
 
-    NavHost(navController = navHostController, startDestination = MainScreen){
+    NavHost(navController = navHostController, startDestination = LoginScreen){
 
         composable<LoginScreen> {
             LoginScreenComposable(navHostController)
